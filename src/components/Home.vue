@@ -1,13 +1,15 @@
 <template>
   <div>
-    <h1>Welcome to Your Vue.js App</h1>
-    <router-link to="404">404 Page</router-link>
+    <div>
+      <h1>Pets Relocation Form Us</h1>
+      <el-button type="text" :plain="true">[read More]</el-button>
+    </div>
   </div>
 </template>
 
 <script>
 export default {
-  data () {
+  data() {
     return {
       msg: 'Welcome to Your Vue.js App'
     }
@@ -16,7 +18,8 @@ export default {
 </script>
 
 <style scoped>
-h1, h2 {
+h1,
+h2 {
   font-weight: normal;
 }
 </style>
